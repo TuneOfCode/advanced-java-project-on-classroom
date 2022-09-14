@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body {
+    background: url(images/Login_bg_lg.png) repeat-x;
+    background-color: #006EB7;
+    height: 100vh;
+    overflow:hidden;
+}
+.signin {
+    display: flex;    
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.col-image {
+    width:650px;
+}
+.signin-logo {
+    margin-top: 50px;
+}
+.signin-logo img {
+    width: 112px;
+    height: 112px;
+}
+.signin-image {
+    margin-top: 70px;    
+}
+.col-signin {
+    width:350px;
+}
+.form-signin {
+    width: 320px;
+    border: 5px solid #6bb9f0;
+    background: #f7f7f7;
+    padding: 15px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 205px;
+    position: relative;
+}
+.form-signin img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+.form-signin-heading {
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight:bold;
+    color: #006eb7;
+    margin-bottom: 20px;
+}
+.form-signin a.forgot-password {
+    display: block;
+}
+.form-signin .btn-custom {
+    margin: 20px auto;
+}
+footer {
+    padding-top: 50px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image:none;
+        background-color: #006EB7;
+        height: 100vh;
+    }
+    .signin {
+        display: flex;    
+        flex-direction:column;
+        width: 100vw;
+        margin: auto;
+        overflow: hidden;
+    }
+    .col-image {
+        width:100%;
+    }
+    .signin-logo {
+        margin-top: 20px;
+    }
+    .signin-logo img {
+        width: 120px;
+        height: 120px;
+    }
+    .signin-image {
+        display:none;  
+    }
+    .col-signin {
+        width:100%;
+    }
+    .form-signin {
+        width: 90%;
+        border: 5px solid #6bb9f0;
+        background: #f7f7f7;
+        padding: 15px;
+        height: 370px;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+    }
+    .form-signin img {
+        border: 5px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: -30px;
+        right: 20px;
+    }
+    .form-signin-heading {
+        font-family: Calibri;
+        font-size: 25px;
+        font-weight:bold;
+        color: #006eb7;
+        margin-bottom: 20px;
+    }
+    .form-signin a.forgot-password {
+        display: block;
+    }
+    .form-signin .btn-custom {
+        margin: 20px auto;
+    }
+    footer {
+        padding-top: 50px;
+        color: #fff;
+    }    
+}
